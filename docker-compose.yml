@@ -12,5 +12,6 @@ services:
       context: .
     ports:
       - 8000:8000
+      - 35729:35729
     volumes:
       - ./src/index.html:/reveal.js/index.html
