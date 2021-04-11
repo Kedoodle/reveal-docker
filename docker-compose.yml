@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  # shell into container
+  sh:
+    build:
+      context: .
+    entrypoint: sh
