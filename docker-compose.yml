@@ -1,7 +1,14 @@
 version: "3.9"
 services:
-  # shell into container
+  # Shell into container
   sh:
     build:
       context: .
     entrypoint: sh
+
+  # Serve reveal.js locally
+  serve:
+    build:
+      context: .
+    ports:
+      - 8000:8000
