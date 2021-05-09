@@ -17,7 +17,7 @@ jobs:
       
       - name: Run presentation
         run: |
-          docker run --rm --name reveal-docker \
+          docker run -d --name reveal-docker \
             -p 8000:8000 \
             -v "$(pwd)"/src/index.html:/reveal.js/index.html \
             -v "$(pwd)"/src/slides.md:/reveal.js/slides.md \
