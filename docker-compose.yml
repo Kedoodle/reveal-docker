@@ -5,13 +5,12 @@ services:
       context: .
     entrypoint: sh
 
-  # Serve reveal.js locally
-  serve:
+  # Run presentation locally
+  reveal:
     build:
       context: .
     ports:
       - 8000:8000
       - 35729:35729
-    volumes:
-      - ./src/index.html:/reveal.js/index.html
-      - ./src/slides.md:/reveal.js/slides.md
+    # volumes:
+      # - ./src/index.html:/reveal.js/index.html
