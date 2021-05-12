@@ -9,7 +9,7 @@ Produce a suitable `index.html` file and other presentation files such as markdo
 
 See an [example here](https://github.com/Kedoodle/reveal-docker-example) which also publishes the presentation to GitHub Pages.
 
-Using Docker Compose is recommended to define your `reveal-docker` container in code. Run your presentation with `docker-compose up reveal`:
+Using Docker Compose is recommended to define your `reveal-docker` container in code. Run your presentation with `docker-compose up`:
 
 `docker-compose.yml`
 ```yml
