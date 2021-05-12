@@ -1,4 +1,5 @@
 # reveal-docker
+![Build badge](https://github.com/kedoodle/reveal-docker/actions/workflows/build.yml/badge.svg)
 
 A [reveal.js](https://github.com/hakimel/reveal.js) container which serves presentations from [markdown content](https://revealjs.com/markdown/#external-markdown). It can be run locally or deployed, for example to [GitHub Pages](https://pages.github.com/).
 
